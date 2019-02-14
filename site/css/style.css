@@ -1,0 +1,142 @@
+	
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+ 
+
+
+footer{
+    background: #000;
+    padding: 90px;
+    margin-top:90px;
+    text-align: center;
+}
+
+footer p{
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+/*------------------------ Home ------------------------*/		
+
+
+
+.diag .home{
+    background: white;
+    background-size: cover;
+}
+
+
+.home-content h1{
+   font-size: 75px;
+   color: #422878;
+   font-weight: bold;
+   margin-top:25%;
+   margin-left: -10%;
+
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 1%;
+    font-size: 100%;
+    margin-left: 6%;
+    margin-right: 2%;
+    margin-top: 3%;
+    width: 4%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+    position: relative;
+    font-weight: bold;
+  }
+
+  .socials{
+
+
+    margin-left: -12%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #00B5EA;
+    color: #422878;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #00B5EA;
+    color: #422878;
+  }
+
+    /* Instagram */
+    .fa-instagram {
+        background: #00B5EA;
+        color: #422878;
+      }
+
+
+.diagonal.home-left{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: none;
+    z-index: 99;
+}
+
+.diagonal.home-right{
+    position: absolute;
+    bottom: 0;
+    right: 0 !important;
+    background: none;
+    z-index: 99;
+    left: auto;
+}
+
+.diagonal.home-left, .diagonal.home-right path {
+    fill: #422878;
+    stroke: #422878;
+    stroke-width: 4;
+}
+
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
+
+
+
+
