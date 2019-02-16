@@ -3,94 +3,50 @@
 body{
 	font-family: 'Montserrat', sans-serif;
 }
- 
 
 
-footer{
-    background: #000;
-    padding: 90px;
-    margin-top:90px;
-    text-align: center;
-}
-
-footer p{
-    line-height: 20px;
-    margin-top: 20px;
-}
-
-
-
-
-
-
-/*------------------------ Home ------------------------*/		
-
-
-
-.diag .home{
+.home{
     background: white;
     background-size: cover;
 }
 
 
 .home-content h1{
-   font-size: 75px;
+   font-size: 500%;
    color: #422878;
    font-weight: bold;
-   margin-top:25%;
-   margin-left: -10%;
+   margin-top:30%;
+   text-align: left;
+   margin-bottom:3%;
 
 }
 
 /* Style all font awesome icons */
 .fa {
-    padding: 1%;
+
     font-size: 100%;
     margin-left: 6%;
     margin-right: 2%;
-    margin-top: 3%;
-    width: 4%;
-    text-align: center;
-    text-decoration: none;
+    width: 40px;
+    height: 40px;
     border-radius: 100%;
     position: relative;
     font-weight: bold;
+    background: #00B5EA;
+    color: #422878;
+    padding-top:1%;
+    text-align: center;
   }
 
-  .socials{
-
-
-    margin-left: -12%;
-  }
   
   /* Add a hover effect if you want */
   .fa:hover {
     opacity: 0.7;
   }
-  
-  /* Set a specific color for each brand */
-  
-  /* Facebook */
-  .fa-facebook {
-    background: #00B5EA;
-    color: #422878;
-  }
-  
-  /* Twitter */
-  .fa-twitter {
-    background: #00B5EA;
-    color: #422878;
-  }
-
-    /* Instagram */
-    .fa-instagram {
-        background: #00B5EA;
-        color: #422878;
-      }
 
 
 .diagonal.home-left{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     background: none;
@@ -98,7 +54,7 @@ footer p{
 }
 
 .diagonal.home-right{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     right: 0 !important;
     background: none;
@@ -133,6 +89,50 @@ footer p{
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
+}
+
+body {
+    padding-top: 50px;
+    position: relative;
+}
+
+pre {
+    tab-size: 8;
+}
+
+@media screen and (max-width: 768px) {
+    .side-collapse-container{
+        width:100%;
+        position:relative;
+        left:0;
+        transition:left .4s;
+        color: #422878;
+    }
+    .side-collapse-container.out{
+        left:200px;
+        color: #422878;
+    }
+    .side-collapse {
+        top:6%;
+        bottom:0;
+        left:0;
+        width:21%;
+        position:fixed;
+        overflow:hidden;
+        transition:width .4s;
+    }
+    .side-collapse.in {
+        width:0;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        color:white;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover {
+        background-color: #00B5EA;
+        color:white;
+    }
 }
 
 
