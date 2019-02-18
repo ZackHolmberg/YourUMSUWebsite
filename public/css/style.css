@@ -42,6 +42,8 @@ body{
   /* Add a hover effect if you want */
   .fa:hover {
     opacity: 0.7;
+    text-decoration: none;
+    transition: 0.3s;
   }
 
 
@@ -107,13 +109,15 @@ pre {
         left:0;
         transition:left .4s;
         color: #422878;
+        background-color:white;
+        transition: 0.3s;
+        
     }
     .side-collapse-container.out{
         left:200px;
-        color: #422878;
     }
     .side-collapse {
-        top:6%;
+        top:5%;
         bottom:0;
         left:0;
         width:21%;
@@ -127,16 +131,70 @@ pre {
 
     .navbar-default .navbar-nav > li > a {
         color:white;
+        font-size: 125%;
+        margin-top:2%;
+        margin-bottom:2%;
+        transition: 0.3s;
     }
 
     .navbar-default .navbar-nav > li > a:hover {
         background-color: #00B5EA;
         color:white;
+        transition: 0.3s;
     }
+
+
+    .navbar-nav > li > a {
+        color:white;
+        border-color:black;
+        border-width: 1%;
+    }
+
+    .navbar-default .navbar-collapse {
+        border-color: #422878;
+    }
+
+
+    .navbar-default .navbar-toggle {
+        background-color: white;
+        border-color:black;
+        color:black;
+        margin-left:1%;
+
+    }
+
+
 }
 
-
-
-
+#fade{
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
 
 
