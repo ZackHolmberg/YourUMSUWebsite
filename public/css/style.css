@@ -25,7 +25,7 @@ body{
 .fa {
 
     font-size: 100%;
-    margin-left: 6%;
+    margin-left: 9%;
     margin-right: 2%;
     width: 40px;
     height: 40px;
@@ -102,25 +102,33 @@ pre {
     tab-size: 8;
 }
 
+.logo{
+
+    position: fixed;
+    margin-left: 55%;
+    margin-top:-15%;
+ }
+
 @media screen and (max-width: 768px) {
     .side-collapse-container{
         width:100%;
-        position:relative;
+        position:fixed;
         left:0;
         transition:left .4s;
         color: #422878;
         background-color:white;
         transition: 0.3s;
         
+        
     }
     .side-collapse-container.out{
         left:200px;
     }
     .side-collapse {
-        top:5%;
+        top:50px;
         bottom:0;
         left:0;
-        width:21%;
+        width:45%;
         position:fixed;
         overflow:hidden;
         transition:width .4s;
@@ -163,8 +171,46 @@ pre {
 
     }
 
+    .home-content h1{
+        font-size: 300%;
+        color: #422878;
+        font-weight: bold;
+        margin-top:20%;
+        text-align: left;
+        margin-bottom:3%;
+     
+     }
+
+
+} /*this is for mobile view*/
+
+.pdf{
+
+    margin-left:-15%;
+}
+
+@media screen and (max-width: 990px) {
+
+    .logo{
+
+        position: fixed;
+        margin-left: 1%;
+        margin-top: 10%;
+        height: 179px;
+        width: 253px;
+     }
+
+     .pdf{
+
+        width: 360px;
+        height: 203px;
+        margin-left:0;
+        margin-top:40%;
+     }
+
 
 }
+
 
 #fade{
     animation: fadein 2s;
@@ -196,5 +242,7 @@ pre {
         opacity:1;
     }
 }
+
+
 
 

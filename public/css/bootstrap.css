@@ -4555,10 +4555,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: white;
 }
 .navbar-default .navbar-nav > li > a {
-  color: white;
-  font-size: 125%;
-  transition: 0.3s;
+    color: white;
+    font-size: 150%;
+    transition: 0.3s;
+
 }
+
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: white;
