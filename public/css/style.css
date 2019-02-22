@@ -21,6 +21,16 @@ body{
 
 }
 
+.team-content h1{
+    font-size: 4vw;
+    color: #422878;
+    font-weight: bold;
+    margin-top:5%;
+    text-align: left;
+    margin-bottom:3%;
+ 
+ }
+
 /* Style all font awesome icons */
 .fa {
 
@@ -140,14 +150,12 @@ pre {
     .navbar-default .navbar-nav > li > a {
         color:white;
         font-size: 125%;
-        margin-top:2%;
-        margin-bottom:2%;
         transition: 0.3s;
     }
 
     .navbar-default .navbar-nav > li > a:hover {
-        background-color: #00B5EA;
-        color:white;
+        background-color: white;
+        color:#422878;
         transition: 0.3s;
     }
 
@@ -187,30 +195,36 @@ pre {
 .pdf{
 
     margin-left:-15%;
+    margin-top: 1%;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1000px) {
 
     .logo{
 
         position: fixed;
         margin-left: 1%;
-        margin-top: 10%;
-        height: 179px;
-        width: 253px;
-     }
-
-     .pdf{
-
-        width: 360px;
-        height: 203px;
-        margin-left:0;
-        margin-top:40%;
+        margin-top: 5%;
+        height: 150px;
+        width: 225px;
      }
 
 
 }
 
+@media screen and (max-width: 992px) {
+
+
+     .pdf{
+
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        margin-top: 40%;
+     }
+
+
+}
 
 #fade{
     animation: fadein 2s;
@@ -243,6 +257,205 @@ pre {
     }
 }
 
+.image{
+
+    height:50px;
+    width: 75px;
+    left: 0;
+    position: absolute;
+    background-color: white;
+    z-index: 999;
+}
+
+#mycontainer1
+{
+    height:150%;    
+}
+
+#mycontainer1 DIV
+{ 
+    padding:10%; 
+    border-radius:25px;
+    color: black;
+    margin-top:5%;
+    background-color:rgba(0, 179, 234, 0.089);
+}
+
+.temp{
+
+    max-width: 35%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    border-radius:25px;
+    margin-top:-12%;
+    margin-left:5%;
+}
+
+#mycontainer1 h2{
+
+    font-size: 3vw;
+    margin-left:60%;
+    margin-top:-35%;
+}
+
+#mycontainer1 h3{
+
+    word-wrap: break-word;
+    line-height: 1.5;
+    font-size:calc(6px + 1vw);
+    margin-left:43%;
+    margin-top:8%;
+}
+
+#mycontainer2
+{
+    height:150%;    
+}
+
+#mycontainer2 DIV
+{ 
+    padding:10%; 
+    border-radius:25px;
+    color: black;
+    margin-top:5%;
+    background-color:rgba(0, 179, 234, 0.089);
+}
+
+#mycontainer2 h2{
+
+    font-size: 3vw;
+    margin-left:42%;
+    margin-top:-35%;
+}
+
+#mycontainer2 h3{
+
+    word-wrap: break-word;
+    line-height: 1.5;
+    font-size:calc(6px + 1vw);
+    margin-left:43%;
+    margin-top:8%;
+}
+
+#mycontainer3
+{
+    height:150%;    
+}
+
+#mycontainer3 DIV
+{ 
+    padding:10%; 
+    border-radius:25px;
+    color: black;
+    margin-top:5%;
+    background-color:rgba(0, 179, 234, 0.089);
+}
+
+#mycontainer3 h2{
+
+    font-size: 3vw;
+    margin-left:41%;
+    margin-top:-35%;
+}
+
+#mycontainer3 h3{
+
+    word-wrap: break-word;
+    line-height: 1.5;
+    font-size:calc(6px + 1vw);
+    margin-left:43%;
+    margin-top:3%;
+}
+
+#mycontainer4
+{
+    height:150%;    
+}
+
+#mycontainer4 DIV
+{ 
+    padding:10%; 
+    border-radius:25px;
+    color: black;
+    margin-top:5%;
+    background-color:rgba(0, 179, 234, 0.089);
+}
+
+#mycontainer4 h2{
+
+    font-size: 3vw;
+    margin-left:41%;
+    margin-top:-35%;
+}
+
+#mycontainer4 h3{
+
+    word-wrap: break-word;
+    line-height: 1.5;
+    font-size:calc(6px + 1vw);
+    margin-left:43%;
+    margin-top:3%;
+}
+
+#mycontainer5
+{
+    height:150%;    
+}
+
+#mycontainer5 DIV
+{ 
+    padding:10%; 
+    border-radius:25px;
+    color: black;
+    margin-top:5%;
+    background-color:rgba(0, 179, 234, 0.089);
+}
+
+#mycontainer5 h2{
+
+    font-size: 3vw;
+    margin-left:41%;
+    margin-top:-35%;
+}
+
+#mycontainer5 h3{
+
+    word-wrap: break-word;
+    line-height: 1.5;
+    font-size:calc(6px + 1vw);
+    margin-left:43%;
+    margin-top:3%;
+}
+
+#mycontainer6
+{
+    height:150px;    
+}
+
+@media screen and (max-width: 1450px) {
 
 
+    #mycontainer1 h3{
+        margin-top:5%;
+    }
+
+    #mycontainer2 h3{
+        margin-top:5%;
+    }
+
+    #mycontainer3 h3{
+        margin-top:5%;
+    }
+
+    #mycontainer4 h3{
+        margin-top:5%;
+    }
+
+    #mycontainer5 h3{
+        margin-top:5%;
+    }
+
+
+
+}
 
