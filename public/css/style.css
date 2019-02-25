@@ -35,9 +35,9 @@ body{
     font-size:calc(10px + 4vw);
     color: #422878;
     font-weight: bold;
-    margin-top:3%;
+    margin-top:5%;
     text-align: left;
-    margin-bottom:1%;
+    margin-bottom:3%;
  
  }
 
@@ -46,7 +46,36 @@ body{
     color: black;
     margin-top:1%;
     text-align: left;
+    margin-bottom:3%;
+ 
+ }
+
+ .ideas-content h1{
+    font-size:calc(10px + 4vw);
+    color: #422878;
+    font-weight: bold;
+    margin-top:5%;
+    text-align: left;
     margin-bottom:5%;
+ 
+ }
+
+ .ideas-content h2{
+    font-size:calc(10px + 2vw);
+    color: black;
+    margin-top:1%;
+    text-align: left;
+    margin-bottom:3%;
+ 
+ }
+
+ .ideas-content h3{
+    font-size:calc(10px + 1vw);
+    color: black;
+    margin-top:1%;
+    text-align: left;
+    margin-bottom:3%;
+    line-height:1.25;
  
  }
 /* Style all font awesome icons */
@@ -206,6 +235,22 @@ pre {
         margin-bottom:3%;
      
      }
+
+     .fa {
+
+        font-size: 100%;
+        margin-left: 9%;
+        margin-right: 2%;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        position: relative;
+        font-weight: bold;
+        background: #00B5EA;
+        color: #422878;
+        padding-top:3%;
+        text-align: center;
+      }
 
 
 } /*this is for mobile view*/
@@ -516,3 +561,51 @@ pre {
     font-size: 14px;
 }
 
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size:calc(8px + 1vw);
+    border:solid thin;
+    border-color:black;
+    margin:1%;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: rgba(0, 179, 234, 0.089);;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: rgba(0, 179, 234, 0.644);
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    margin-top:3%;
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+  }
+
+  .tabcontent {
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+  }
+  
+  /* Go from zero to full opacity */
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
