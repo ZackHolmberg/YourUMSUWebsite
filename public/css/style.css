@@ -293,9 +293,15 @@ pre {
 
 #mycontainer1 h2{
 
-    font-size: 3vw;
-    margin-left:60%;
-    margin-top:-35%;
+    font-size:calc(6px + 3vw);
+    margin-left:49%;
+    margin-top:-36%;
+}
+
+#mycontainer1 h4{
+
+    font-size:calc(6px + 2vw);
+    margin-left:62%;
 }
 
 #mycontainer1 h3{
@@ -304,7 +310,7 @@ pre {
     line-height: 1.5;
     font-size:calc(6px + 1vw);
     margin-left:43%;
-    margin-top:8%;
+    margin-top:4%;
 }
 
 #mycontainer2
@@ -323,9 +329,17 @@ pre {
 
 #mycontainer2 h2{
 
-    font-size: 3vw;
-    margin-left:42%;
-    margin-top:-35%;
+    font-size:calc(6px + 3vw);
+    margin-left:43%;
+    margin-top:-40%;
+}
+
+#mycontainer2 h4{
+
+    font-size:calc(6px + 2vw);
+    text-align: center;
+    margin-left:40%;
+    margin-top:2%;
 }
 
 #mycontainer2 h3{
@@ -334,7 +348,7 @@ pre {
     line-height: 1.5;
     font-size:calc(6px + 1vw);
     margin-left:43%;
-    margin-top:8%;
+    margin-top:3%;
 }
 
 #mycontainer3
@@ -353,9 +367,17 @@ pre {
 
 #mycontainer3 h2{
 
-    font-size: 3vw;
-    margin-left:41%;
-    margin-top:-35%;
+    font-size:calc(6px + 3vw);
+    margin-left:53%;
+    margin-top:-40%;
+}
+
+#mycontainer3 h4{
+
+    font-size:calc(6px + 2vw);
+    text-align: center;
+    margin-left:40%;
+    margin-top:2%;
 }
 
 #mycontainer3 h3{
@@ -383,9 +405,17 @@ pre {
 
 #mycontainer4 h2{
 
-    font-size: 3vw;
-    margin-left:41%;
-    margin-top:-35%;
+    font-size:calc(6px + 3vw);
+    margin-left:53%;
+    margin-top:-40%;
+}
+
+#mycontainer4 h4{
+
+    font-size:calc(6px + 2vw);
+    text-align: center;
+    margin-left:40%;
+    margin-top:2%;
 }
 
 #mycontainer4 h3{
@@ -413,9 +443,17 @@ pre {
 
 #mycontainer5 h2{
 
-    font-size: 3vw;
-    margin-left:41%;
-    margin-top:-35%;
+    font-size:calc(6px + 3vw);
+    margin-left:49%;
+    margin-top:-40%;
+}
+
+#mycontainer5 h4{
+
+    font-size:calc(6px + 2vw);
+    text-align: center;
+    margin-left:40%;
+    margin-top:2%;
 }
 
 #mycontainer5 h3{
@@ -433,11 +471,6 @@ pre {
 }
 
 @media screen and (max-width: 1450px) {
-
-
-    #mycontainer1 h3{
-        margin-top:5%;
-    }
 
     #mycontainer2 h3{
         margin-top:5%;
