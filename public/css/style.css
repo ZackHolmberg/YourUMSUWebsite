@@ -257,7 +257,7 @@ pre {
 
 .pdf{
 
-    margin-left:-15%;
+    margin-left:-22%;
     margin-top: -3%;
 }
 
@@ -275,7 +275,7 @@ pre {
 
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1000px) {
 
 
      .pdf{
@@ -298,6 +298,7 @@ pre {
 
 
 }
+
 
 #fade{
     animation: fadein 2s;
