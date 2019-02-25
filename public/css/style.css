@@ -51,10 +51,10 @@ body{
  }
 
  .ideas-content h1{
-    font-size:calc(10px + 4vw);
+    font-size:calc(10px + 3.5vw);
     color: #422878;
     font-weight: bold;
-    margin-top:5%;
+    margin-top:2%;
     text-align: left;
     margin-bottom:5%;
  
@@ -258,7 +258,7 @@ pre {
 .pdf{
 
     margin-left:-15%;
-    margin-top: 1%;
+    margin-top: -3%;
 }
 
 @media screen and (max-width: 1000px) {
@@ -284,6 +284,16 @@ pre {
         height: 100%;
         margin: auto;
         margin-top: 40%;
+     }
+
+     .ideas-content h1{
+        font-size:calc(10px + 5vw);
+        color: #422878;
+        font-weight: bold;
+        margin-top:5%;
+        text-align: left;
+        margin-bottom:5%;
+     
      }
 
 
