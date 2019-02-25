@@ -161,7 +161,7 @@ pre {
 
 .logo{
 
-    position: fixed;
+    position: absolute;
     margin-left: 55%;
     margin-top:-15%;
  }
@@ -275,8 +275,9 @@ pre {
 
 }
 
-@media screen and (max-width: 1000px) {
 
+@media screen and (max-width: 1000px) {
+s
 
      .pdf{
 
@@ -620,3 +621,66 @@ pre {
     from {opacity: 0;}
     to {opacity: 1;}
   }
+
+
+@media screen and (max-height: 720px) {
+
+    .logo{
+
+        margin-top:-20%;
+     }
+
+     .pdf{
+
+        width: 700px;
+        height:400px;
+        margin-left:25%;
+
+     }
+
+     #mycontainer1 h3{
+
+        word-wrap: break-word;
+        line-height: 1.5;
+        font-size:calc(6px + 1vw);
+        margin-left:43%;
+        margin-top:5%;
+    }
+
+    #mycontainer1 h2{
+
+        font-size:calc(6px + 3vw);
+        margin-left:52%;
+        margin-top:-36%;
+    }
+
+    #mycontainer2 h2{
+
+        font-size:calc(6px + 3vw);
+        margin-left:51%;
+        margin-top:-36%;
+    }
+
+    #mycontainer3 h2{
+
+        font-size:calc(6px + 3vw);
+        margin-left:57%;
+        margin-top:-36%;
+    }
+
+    #mycontainer4 h2{
+
+        font-size:calc(6px + 3vw);
+        margin-left:57%;
+        margin-top:-36%;
+    }
+
+    #mycontainer5 h2{
+
+        font-size:calc(6px + 3vw);
+        margin-left:52%;
+        margin-top:-36%;
+    }
+
+
+}
