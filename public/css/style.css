@@ -657,15 +657,50 @@ s
     #mycontainer2 h2{
 
         font-size:calc(6px + 3vw);
-        margin-left:51%;
+        margin-left:48%;
         margin-top:-36%;
     }
+
+    #mycontainer2 h4{
+
+        font-size:calc(6px + 2vw);
+        text-align: center;
+        margin-left:43%;
+        margin-top:-1%;
+    }
+
+    #mycontainer2 h3{
+
+        word-wrap: break-word;
+        line-height: 1.5;
+        font-size:calc(6px + 1vw);
+        margin-left:43%;
+        margin-top:2%;
+    }
+    
 
     #mycontainer3 h2{
 
         font-size:calc(6px + 3vw);
-        margin-left:57%;
-        margin-top:-36%;
+        margin-left:53%;
+        margin-top:-40%;
+    }
+    
+    #mycontainer3 h4{
+    
+        font-size:calc(6px + 2vw);
+        text-align: center;
+        margin-left:40%;
+        margin-top:2%;
+    }
+    
+    #mycontainer3 h3{
+    
+        word-wrap: break-word;
+        line-height: 1.5;
+        font-size:calc(6px + 1vw);
+        margin-left:43%;
+        margin-top:3%;
     }
 
     #mycontainer4 h2{
@@ -682,5 +717,63 @@ s
         margin-top:-36%;
     }
 
+    #mycontainer4 h2{
 
+        font-size:calc(6px + 3vw);
+        margin-left:53%;
+        margin-top:-40%;
+    }
+    
+    #mycontainer4 h4{
+    
+        font-size:calc(6px + 2vw);
+        text-align: center;
+        margin-left:40%;
+        margin-top:2%;
+    }
+    
+    #mycontainer4 h3{
+    
+        word-wrap: break-word;
+        line-height: 1.5;
+        font-size:calc(6px + 1vw);
+        margin-left:43%;
+        margin-top:3%;
+    }
+
+    #mycontainer5 h2{
+
+        font-size:calc(6px + 3vw);
+        margin-left:49%;
+        margin-top:-40%;
+    }
+    
+    #mycontainer5 h4{
+    
+        font-size:calc(6px + 2vw);
+        text-align: center;
+        margin-left:40%;
+        margin-top:2%;
+    }
+    
+    #mycontainer5 h3{
+    
+        word-wrap: break-word;
+        line-height: 1.5;
+        font-size:calc(6px + 1vw);
+        margin-left:43%;
+        margin-top:3%;
+    }
+
+
+}
+
+@media screen and (max-height: 700px) {
+
+    .logo{
+
+        position: absolute;
+        margin-left: 5%;
+        margin-top: 15%;
+     }
 }
