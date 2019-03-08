@@ -771,7 +771,7 @@ s
 
     .logo{
 
-        margin-top: -10%;
+        margin-top: 20%;
      }
 
      .pdf{
@@ -922,12 +922,38 @@ s
      }
  }
 
- @media screen and (max-width: 425px) {
+
+
+@media screen and (max-height: 770px) {
 
     .logo{
 
-        margin-top:-20%;
+        position: relative;
+        margin-left: 55%;
      }
+}
+
+@media screen and (max-height: 750px) {
+
+    .logo{
+
+        position: fixed;
+        margin-left: 55%;
+        bottom: 20%;
+     }
+}
+
+@media screen and (max-width: 700px) {
+.logo{
+
+    margin-top:20%;
+    margin-left:5%;
+ }
+}
+
+@media screen and (max-width: 425px) {
+
+
 
 
 
@@ -1059,23 +1085,4 @@ s
     }
 
 
-}
-
-@media screen and (max-height: 770px) {
-
-    .logo{
-
-        position: relative;
-        margin-left: 55%;
-     }
-}
-
-@media screen and (max-height: 750px) {
-
-    .logo{
-
-        position: fixed;
-        margin-left: 55%;
-        bottom: 20%;
-     }
 }
